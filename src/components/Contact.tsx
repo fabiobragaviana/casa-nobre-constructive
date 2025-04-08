@@ -124,8 +124,8 @@ const Contact = () => {
                   <MapPin className="w-6 h-6 mr-4 text-casanobre-gold" />
                   <div>
                     <h4 className="font-bold">Endereço</h4>
-                    <p>Av. Paulista, 1000 - Bela Vista</p>
-                    <p>São Paulo - SP, 01310-000</p>
+                    <p>R Primeiro de Maio n 59 - Figueiró - Paços de Ferreira</p>
+                    <p>Porto - 4590-205</p>
                   </div>
                 </div>
               </div>

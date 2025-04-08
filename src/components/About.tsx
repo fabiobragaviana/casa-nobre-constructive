@@ -30,13 +30,13 @@ const About = () => {
           <div className="flex items-center">
             <div className="mr-4">
               <img 
-                src="https://randomuser.me/api/portraits/men/32.jpg" 
+                src="" 
                 alt="Eng. Marcelo" 
                 className="w-16 h-16 rounded-full object-cover"
               />
             </div>
             <div>
-              <h3 className="font-bold text-casanobre">Eng. Marcelo</h3>
+              <h3 className="font-bold text-casanobre">Eng. Marcelo Laino</h3>
               <p className="text-gray-600">Fundador e Diretor</p>
             </div>
           </div>
