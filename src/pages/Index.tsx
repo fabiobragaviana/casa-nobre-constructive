@@ -1,4 +1,3 @@
-
 import React, { useEffect } from 'react';
 import Navbar from '../components/Navbar';
 import Hero from '../components/Hero';
@@ -7,7 +6,6 @@ import ProjectCarousel from '../components/ProjectCarousel';
 import About from '../components/About';
 import Contact from '../components/Contact';
 import Footer from '../components/Footer';
-import { Phone } from 'lucide-react';
 
 const Index = () => {
   useEffect(() => {
@@ -36,7 +34,7 @@ const Index = () => {
       <Contact />
       <Footer />
       
-      {/* Botão flutuante de WhatsApp */}
+      {/* Botão flutuante de WhatsApp sem animação de ping */}
       <a
         href="https://wa.me/35193882223"
         target="_blank"
@@ -44,7 +42,6 @@ const Index = () => {
         className="fixed bottom-6 right-6 bg-green-500 hover:bg-green-600 text-white rounded-full p-4 shadow-lg transition-all duration-300 hover:scale-110 z-50 flex items-center justify-center"
         aria-label="Contato pelo WhatsApp"
       >
-        <div className="absolute animate-ping w-full h-full bg-green-400 rounded-full opacity-75"></div>
         <svg
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 24 24"
