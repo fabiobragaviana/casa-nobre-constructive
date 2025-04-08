@@ -50,14 +50,37 @@
   }
   
   .overlay {
-    @apply absolute inset-0 bg-black/50;
+    @apply absolute inset-0 bg-black/60;
   }
   
   .section-padding {
-    @apply py-16 md:py-24;
+    @apply py-20 md:py-28;
   }
   
   .transition-all-300 {
     @apply transition-all duration-300 ease-in-out;
   }
+  
+  .btn-primary {
+    @apply px-6 py-3 bg-casanobre-gold text-white font-medium rounded-md hover:bg-casanobre transition-all shadow-md transform hover:scale-105;
+  }
+  
+  .btn-secondary {
+    @apply px-6 py-3 bg-transparent border-2 border-casanobre-gold text-casanobre-gold font-medium rounded-md hover:bg-casanobre-gold hover:text-white transition-all shadow-md transform hover:scale-105;
+  }
+  
+  .card-effect {
+    @apply transition-all duration-300 hover:shadow-xl hover:-translate-y-2;
+  }
+}
+
+/* Animações específicas */
+@keyframes float {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-10px); }
+  100% { transform: translateY(0px); }
+}
+
+.animate-float {
+  animation: float 3s ease-in-out infinite;
 }

@@ -16,6 +16,9 @@ const Footer = () => {
             <p className="mb-4 text-gray-300">
               Transformando sonhos em realidade através da engenharia e arquitetura de qualidade.
             </p>
+            <p className="mb-4 text-gray-300">
+              Fundador: <span className="text-casanobre-gold font-medium">Eng. Marcelo Laino</span>
+            </p>
             <div className="flex space-x-4">
               <a href="#" className="text-white hover:text-casanobre-gold transition-colors">
                 <Facebook className="w-5 h-5" />
@@ -55,11 +58,11 @@ const Footer = () => {
             <ul className="space-y-4">
               <li className="flex items-start">
                 <Phone className="w-5 h-5 mr-3 text-casanobre-gold shrink-0" />
-                <span>(11) 99999-9999</span>
+                <span>+351 938 822 23</span>
               </li>
               <li className="flex items-start">
                 <Mail className="w-5 h-5 mr-3 text-casanobre-gold shrink-0" />
-                <span>contato@casanobreengenharia.com.br</span>
+                <span>fabiobragaviana@hotmail.com</span>
               </li>
             </ul>
           </div>
